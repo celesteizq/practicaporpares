@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body {
+	background-color: orange;
+	margin-left: 0.11em;
+	margin-right: 0.1em;
+}
+
+.iconos body {
+	background-color: orange;
+	margin: 0;
+}
+
+.white {
+	background-color: white;
+	margin-left: 2em;
+	width: 83em;
+	height: 10em;
+}
+
+.iconos {
+	list-style-type: katakana-iroha;
+}
+
+h1 {
+	font-family: 'Sriracha', cursive;
+	height: 2em;
+	color: white;
+	text-align: center;
+}
+
+.fondo_naranja {
+	color: white;
+	font-weight: bolder;
+	font-style: inherit;
+	text-align: center;
+	padding-top: 1em;
+	width: 100em;
+	height: 6em;
+	margin: 0;
+}
+
+.click {
+	background-color: lightblue;
+	color: black;
+	height: 4em;
+	text-align: left;
+	padding-left: 3em;
+	padding-top: 0.01em;
+	font-size: medium;
+	margin-bottom: 1em;
+}
+
+a:link, a:visited a:hover, a:active {
+	background-color: none;
+	color: blue;
+	border: 0.1em solid black;
+	padding: 0.2em 0.2em;
+	text-align: center;
+	text-decoration: underline;
+	display: inline-block;
+	border: 0.1em solid black;
+}
+
+img.floatleft {
+	float: left;
+	padding-right: 0.1em;
+	margin-top: 1em;
+}
+
+main {
+	background-color: white;
+	margin: 0;
+	border-top: 5em solid white;
+	margin-top: -2.5em;
+	margin-bottom: 0;
+	border-bottom: 5em solid white;
+}
+
+.texto {
+	color: blue;
+	border-bottom: 1.5em solid blue;
+	border-top: 1.5em solid blue;
+}
+
+.floatright {
+	float: right;
+	margin-top: -1em;
+	margin-bottom: 0;
+	padding-right: 0;
+}
+
+.texto-dos {
+	color: red;
+	margin-top: -1em;
+	height: 6em;
+	border-bottom: 1.7em solid red;
+	border-top: 1.7em solid red;
+	background-color: lightblue;
+}
+
+.fondo-rojo {
+	height: 8.3em;
+	border-bottom: 6em solid lightblue;
+	margin-bottom: 0;
+	border-top: 6em solid lightblue;
+}
+
+.fondo-rosa {
+	background-color: coral;
+	height: 5em;
+	padding-top: 1em;
+	text-align: center;
+	margin-bottom: 3em;
+	text-align: center;
+	padding-bottom: -1em;
+}
+
+.letras-tachadas del {
+	text-decoration: line-through;
+}
+
+.amarillo {
+	background-color: yellow;
+}
